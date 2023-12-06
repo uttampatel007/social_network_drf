@@ -38,8 +38,8 @@
 
 4. **Additional Notes**
 
-    1- API Collection: https://api.postman.com/collections/11118851-92451450-84e1-4d8c-86eb-7bc68eacdb2b?access_key=PMAT-01HGYZJQ3FR2M2MFYHA64TB3XY
+    1: API Collection: https://api.postman.com/collections/11118851-92451450-84e1-4d8c-86eb-7bc68eacdb2b?access_key=PMAT-01HGYZJQ3FR2M2MFYHA64TB3XY
 
-    2- In collection update the token in Authorization to access other apis except login and sign up.
+    2: In collection update the token in Authorization to access other apis except login and sign up.
 
-    3- To generate the token use login api.
+    3: To generate the token use login api.
