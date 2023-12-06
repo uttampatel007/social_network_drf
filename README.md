@@ -3,16 +3,27 @@
 ## Installation Steps
 
 ### Prerequisites
+- [Python3.9](https://www.python.org/)
+- [Django](https://www.djangoproject.com/)
+- [Django REST framework](https://www.django-rest-framework.org/)
 - [Docker](https://docs.docker.com/get-docker/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
+
 
 ### Steps
 
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/your-username/your-django-app.git
-    cd your-django-app
+    git clone https://github.com/uttampatel007/social_network_drf.git
+    cd social_network_drf
+    ```
+
+1. **Run Migrations and Create Superuser**
+
+    ```bash
+    python3 manage.py migrate
+    python3 manage.py createsuperuser
     ```
 
 2. **Build and Run the Docker Containers**
